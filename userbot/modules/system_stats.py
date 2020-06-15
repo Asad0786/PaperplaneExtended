@@ -134,12 +134,9 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
 
     await alive.edit(
-                     "`I'm Alive Sedly.` \n"
-                     "`Keeel me plox️` \n"
-                     f"Telethon version: {version.__version__} \n"
-                     f"Python: {python_version()} \n"
-                     f"------------------------------------ \n"
-                     f"Owner Bish: {DEFAULTUSER} \n"
+                     f"`Heck :0 Am alive Sar!`\n`Don't kill me Sar ;_;"
+                     
+                     f"Telethon version: {version.__version__} \n Python: {python_version()} \n"
                      )
 
 @register(outgoing=True, pattern="^.aliveu")
